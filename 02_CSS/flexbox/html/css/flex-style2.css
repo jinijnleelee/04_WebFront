@@ -1,0 +1,65 @@
+.flex-container{
+    display: flex;
+
+
+    /* item(내부요소)를 감싸는 요소의 형식을 flex로 변경
+    -?> item에 자동으로 지정된 margin요소가 사라지고
+    content 영역 만큼의 크기만 가지게 됨
+
+    item에 별도 height / width가 지정되어 있지 않으면
+    item의높이는  flex-container의 높이/너비와 같아지게 된다.
+
+    flex-container의 정렬 방향에 따라 다름 )
+     */
+
+
+
+/* 현재 화면의 75% 만큼의 비율
+vh : Viemport height(현재 화면 높이)
+ Viemport : 브라우저 또는 기기화면
+*/
+
+    height: 75vh;
+    
+flex-wrap: wrap-reverse;
+
+/* align-items: center; */
+
+/* ********************* */
+/* align-content */
+/* ********************* */
+
+/* cross axis 방향으로 
+item 의 포장된(wrap)라인을 정렬하는 방법
+
+조건 : flex-wrap 속성이 wrap 또는 wrap-reverse 일때만 사용가능*/
+
+속성값 : justify-content 의 속성값을 전부 사용할수있다.
+flex-container의 속성값을 전부 사용할수있다
+/* cross axis 방향 시작지점으로 포장된 item들을 정렬*/
+align-content :flex-start;
+/* cross axis 끝지점으로 포장된 item들을 정렬*/
+align-content : flex-end;
+
+/* cross axis 방향 가운데로 포장된 item들을 정렬*/
+align-content :   center;
+
+/* cross axis 방향 가운데로 포장된 item들 양쪽으로 일정한
+공간을 나눠주어 정렬*/
+align-content :  space-around;
+
+
+
+/* cross axis 방향 가운데로 포장된 item들이
+동일한 크기의 공간을 나누어 정렬 
+*/
+align-content :  space-evenly;
+
+/* cross axis 방향 가운데로 포장된 item들이
+동일한 크기의 공간을 나누어 정렬 
+*/
+align-content :  space-evenly;
+
+
+   
+}
