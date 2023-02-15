@@ -1,0 +1,111 @@
+/* color 속성 */
+#color-ul {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#color-ul > li:nth-child(1){color: red;}
+
+#color-ul > li:nth-child(2){color: #8918F5; }
+
+#color-ul > li:nth-child(3){color: rgb(50,100,150);}
+#color-ul > li:nth-child(4){color: rgba(red, green, blue, alpha);}
+
+
+#deco-ul > li:nth-child(1){text-decoration: underline;}
+#deco-ul > li:nth-child(2){text-decoration: line-through;}
+#deco-ul > li:nth-child(3){text-decoration: overline;}
+#deco-ul > li:nth-child(4){text-decoration: none;}
+
+
+/*align-text*/
+#align-text{
+    width: 350px;
+    border: 2px solid black;
+}
+#align-text span{
+    background-color: pink;
+}
+
+#align-text > p:nth-child(1) {text-align: left;} /*기본값*/
+#align-text > p:nth-child(2) {text-align: right;} 
+#align-text > p:nth-child(3) {text-align: center;} 
+
+#align-text > p:nth-child(4) {text-align: justify;} 
+/*기본값*/
+
+
+
+/* inline-block */
+
+
+#div1> div{
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+    display: inline-block;
+}
+
+#div1{
+    text-align: center;
+}
+
+
+/* inline-heght */
+#line-test> p:last-child{
+    line-height: 30px;
+}
+
+/* legger-spacing */
+#letter-test{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+}
+#letter-test2{
+    letter-spacing: 10px;
+  
+   
+}
+
+
+#shadow-test{
+
+    padding: 30px;
+    background-color: black;
+}
+
+
+#shadow-test > p {
+    font-size: 75px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: black;
+}
+
+#shadow-test > p:nth-child(1){
+    color: orange;
+    text-shadow: 3px 3px while;
+}
+
+#shadow-text > p:nth-child(2){
+    color: aqua;
+    text-shadow: 5px 5px 5px aliceblue;
+}
+
+#shadow-text > p:nth-child(3){
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 0px 20px magenta;
+}
+
+#shadow-text > p:nth-child(4){
+    text-shadow: 0px 0px 0px #ccc,
+    0px -5px 4px #ff3,
+    2px -18px 6px #fd3,
+    -2px -15px 11px #f80,
+    2px -20px 18px black;
+}
+
+
+
+
