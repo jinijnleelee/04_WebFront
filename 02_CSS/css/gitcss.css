@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.blackNav {
+
+    height: 70px;
+    display: flex;
+    background-color: #24292f;
+    justify-content: center;
+}
+
+
+/* header */
+.blackNav div:first-child{
+
+    background-color: black;
+width: 1440px;
+height: 100%;
+display:  flex;
+}
+
+
+.blackNavLeft{
+    border: 2px solid purple;
+    flex-basis: 35%;
+}
+
+
+.blackNavLeft > button {
+    background-color: transparent;
+    border:  none;
+    font-size: 40px;
+    color: white;
+}
+
+.blackNavLeft > ul {
+
+    list-style: none;
+    display: flex;
+}
+
+.blackNavLeft li {
+
+font-size: 16px;
+    display: flex;
+    padding-right: 20px;
+}
+
+.blackNavLeft li i {
+    
+}
+
+
+.blackNavCenter{
+    border: 2px solid palegreen;
+    flex-basis: 30%;
+}
+
+
+.blackNavRight{
+    border: 2px solid darkblue;
+    flex-basis: 35%;
+}

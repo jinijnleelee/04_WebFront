@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    height: 800px;
+    width: 1000px;
+    
+   
+}
+
+.header{
+    border: 2px solid purple;
+    height: 20%;
+}
+
+.nav{
+    border: 2px solid purple;
+    height: 10%;
+}
+
+.main{
+    border: 2px solid purple;
+}
+
+.main2{
+    
+    display: flex;
+    border: 2px solid purple;
+
+}
+
+.article1{
+    
+}
+
+.article2{
+    
+}
+.aside{
+    border: 2px solid purple;
+}
+
+.footer{
+    border: 2px solid purple;
+    height: 15%;
+}

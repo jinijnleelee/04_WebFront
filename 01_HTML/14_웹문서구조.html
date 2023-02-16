@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../02_CSS/css/structure.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5578e7e737.css" crossorigin="anonymous">
+    <title>14웹문서구조 </title>
+
+
+
+</head>
+<body>
+<div class="container"> 
+    <!-- 최상단 부모 -->
+
+    <!-- 헤더 영역 -->
+    <div class="header">
+        <!-- 로고 영역(클릭시 메인페이지로 넘어감 a태그 써야됨) -->
+        <div>
+            <a href="#">
+                <img src="../02_CSS/src/LogoMakr-1RQwQS.png"  id="home-logo">
+            </a>
+        </div>
+     <div>
+        <!-- 검색창 -->
+        <div class="search-area">
+            <!-- from 내부 input 태그 값을 서버 또는 페이지로 전달 -->
+
+            <form action="#" name="search-form">
+                <!--  fieldset : form 내부에서 input을 종류별로 묶는 용도로 많이씀-->
+                <fieldset>
+                    <!--   autocomplete="off"  : HTML 기본 자동완성 사용 X-->
+                    <input type="search" id="query" name="query"
+                    autocomplete="off" placeholder="검색어를 입력해주세요">
+               
+           <!-- 검색버튼 -->
+            <button id="search-btn" class="fa-sharp fa-solid fa-magnifying-glass">
+                <!-- 폰트어썸 아이콘 -->
+           </button>
+        
+    
+         </fieldset>
+
+
+
+
+        </form>
+    </div>
+</div>
+
+<!-- 공백영역 -->
+    <div></div>
+    </div>
+     
+        <!-- nav영역 -->
+        <div class="nav">
+            <ul>
+                <li><a>공지사항</a></li>
+                <li><a>자유 게시판</a></li>
+                <li><a>질문게시판</a></li>
+                <li><a>FAQ</a></li>
+                <li><a>1:1</a></li>
+            </ul>
+
+
+        
+        </div>
+     <!-- nav영역 끝-->
+
+          <!-- 전체 content영역 시작-->
+        <div class="content">
+            <!-- 콘텐트 내용 영역 -->
+            <div class="content-1" ></div>
+
+            <!-- 아이디/비밀번호/로그인영역  -->
+            <div class="container-2" >
+                <form action="#" name="login-form">
+                    <fieldset id="id-pw-area">
+
+                        <div>
+                            <input type="text" name="inputid" placeholder="아이디">
+                            <input type="text" name="inputPW" placeholder="비번">
+                        </div>
+
+                        <div>
+                            <!-- <buttondml type기본값은 submit -->
+                            <button>로그인</button>
+                        </div>
+
+
+
+
+                    </fieldset>
+
+                    <!-- 회원가입/아이디/패스워드 찾기 영역 -->
+
+                    <div id="signup-find-area">
+                        <a>회원가입</a>
+                        <span></span>
+                        <a>ID/PW 찾기</a>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        
+          <!-- 전체 content영역 끝-->
+
+
+    </div>
+    <!-- footer영역 시작 -->
+    <div class="footer">
+        <p>copy/right &copy; KH Information Educational Institute A-class</p>
+
+        <div>
+            <a href="#">프로젝트 소개</a>
+            <span></span>
+            <a href="#">이용약관</a>
+            <span></span>
+            <a href="#"> 개인정보처리방침</a>
+            <span></span>
+            <a href="#">고객센터</a>
+            <span></span>
+        </div>
+    </div>
+    <!-- footer영역 끝 -->
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

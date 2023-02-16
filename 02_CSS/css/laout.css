@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    height: 800px;
+    width: 1000px;
+    
+   
+}
+.header{
+
+    height: 20%;
+    border: 2px solid purple;
+}
+
+
+.Navlgation{
+    height: 10%;
+    border: 2px solid purple;
+}
+
+
+.Main{
+ 
+    border: 2px solid purple;
+    display: flex;
+}
+
+.Content1{
+   width: 20%;
+    display: flex;
+}
+
+.Main Content{
+    width: 50%;
+    display: flex;
+}
+.Content2{
+    width: 20%;
+    display: flex;
+}
+.Footer{
+    height: 15%;
+    border: 2px solid purple;
+}
+
+
